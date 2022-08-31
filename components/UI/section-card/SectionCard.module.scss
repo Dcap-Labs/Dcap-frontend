@@ -1,0 +1,27 @@
+.container {
+  margin-bottom: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  & h2 {
+    text-transform: uppercase;
+    & span {
+      font-size: 2rem;
+    }
+  }
+
+  & p {
+    font-size: 1.8rem;
+    margin-bottom: 2.5rem;
+    line-height: 2;
+    font-weight: 500;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column !important;
+  }
+}

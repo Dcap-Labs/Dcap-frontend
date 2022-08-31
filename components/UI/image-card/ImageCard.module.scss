@@ -1,0 +1,22 @@
+.image {
+  box-shadow: 0 0 10px #09fbd3, 0 -10px 20px -5px #ff017e;
+  border-radius: 30px;
+  padding: 2px;
+  position: relative;
+
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.33, #09fbd3),
+    color-stop(0.67, #ff017e)
+  );
+
+  &__img {
+    height: auto;
+    // position: relative;
+    max-width: 100%;
+    border-radius: 30px;
+    // object-fit: contain;
+  }
+}
