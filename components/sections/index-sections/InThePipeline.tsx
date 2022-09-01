@@ -1,10 +1,5 @@
 import { FC, Fragment } from "react";
-import {
-  ButtonCard,
-  ImageCard,
-  SectionCard,
-  SectionWidthCard,
-} from "@components/UI";
+import { ImageCard, SectionCard, SectionWidthCard } from "@components/UI";
 
 export const InThePipeline: FC = () => {
   return (
@@ -29,7 +24,6 @@ export const InThePipeline: FC = () => {
             NFTs! Read our White Paper if you want to know more and watch out
             here for further updates.
           </p>
-          <ButtonCard>Play Game</ButtonCard>
         </SectionWidthCard>
         <SectionWidthCard width="50%">
           <ImageCard

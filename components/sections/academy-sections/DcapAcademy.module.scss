@@ -1,0 +1,13 @@
+.academy {
+  & h1 {
+    text-align: center;
+    margin-bottom: 13rem;
+  }
+  & p {
+    margin-bottom: 3rem;
+  }
+}
+
+.list {
+  margin-bottom: 0 !important;
+}

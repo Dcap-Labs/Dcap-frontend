@@ -6,6 +6,7 @@ import {
   WhoWeAre,
   DcapGameOne,
   InThePipeline,
+  ExploreSivana,
 } from "@components";
 import Head from "next/head";
 
@@ -19,6 +20,7 @@ const Home: NextPage = () => {
       </Head>
       <WhoWeAre />
       <TheFirstDrop />
+      <ExploreSivana />
       <SpecialFeatures />
       <DcapGameOne />
       <InThePipeline />
