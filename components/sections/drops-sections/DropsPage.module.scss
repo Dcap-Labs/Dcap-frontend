@@ -1,0 +1,97 @@
+.drops {
+  margin: 0 auto;
+  max-width: 730px;
+  display: flex;
+  align-items: center;
+  //   max-width: 100%;
+  justify-content: space-between;
+  //   gap: 2rem;
+
+  position: relative;
+  z-index: 1;
+  max-width: 730px;
+  margin-top: 25px;
+  margin-bottom: 50px;
+
+  & h1 {
+    margin-bottom: 0;
+  }
+}
+
+.heading {
+  text-align: center;
+}
+
+.product {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__col {
+    flex: 0 0 33.333%;
+    width: 33.333%;
+    position: relative;
+  }
+
+  &__wrap {
+    background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      color-stop(0.33, #09fbd3),
+      color-stop(0.67, #ff017e)
+    );
+    padding: 2px;
+    margin: 2rem auto 0 auto;
+    width: fit-content;
+    border-radius: 30px;
+  }
+
+  &__container {
+    position: relative;
+    width: 33rem;
+    /* margin: 2rem auto 0 auto; */
+    padding: 2.5rem;
+    border-radius: 30px;
+    background: linear-gradient(#0d121a, #0d121a);
+    position: relative;
+    box-shadow: 0 0 10px #09fbd3, 0 -10px 20px -5px #ff017e;
+  }
+
+  &__inner {
+    // background-image: url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png);
+    background-size: cover;
+    background-position: center;
+    border-radius: 30px;
+    // max-width: 50rem;
+    overflow: hidden;
+  }
+
+  &__video {
+    border-radius: 90px;
+    width: -webkit-fill-available;
+  }
+
+  &__title {
+    & p {
+      font-size: 1.92rem;
+      line-height: 1.3;
+      font-weight: 500;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+  }
+
+  &__qty {
+    border-bottom: 1px solid #172638;
+    & p {
+      text-align: right;
+      font-size: 1.8rem;
+      line-height: 1.3;
+      font-weight: 500;
+      margin-top: 30px;
+      margin-bottom: 1rem;
+    }
+  }
+}

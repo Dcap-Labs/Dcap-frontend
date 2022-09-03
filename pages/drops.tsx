@@ -7,7 +7,7 @@ const Drops: NextPage = () => {
   return (
     <Fragment>
       <Head>
-        <title>DCAPLABS | Drops </title>
+        <title>DCAPLABS | Collaborators </title>
         <meta name="Dcaplabs Drops" content="Dcaplabs Drops" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
