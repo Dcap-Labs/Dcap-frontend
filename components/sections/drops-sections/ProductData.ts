@@ -1,63 +1,85 @@
 export const ProductData = {
   sivanaHoodie: [
     {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+      id: "blackHoodie",
+      name: "Sivana Hoodie X Joggers",
+      image:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
     {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+      id: "greyHoodie",
+      name: "Sivana Hoodie X Joggers",
+      image:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
     {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+      id: "whiteHoodie",
+      name: "Sivana Hoodie X Joggers",
+      image:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
   ],
 
   sivanaSneakers: [
-    {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+    {id: "blackSneakers",
+      name: "Sivana Black Sneakers",
+      image:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
-    {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+    {id: "greySneakers",
+      name: "Sivana Grey Sneakers",
+      image: "https://dcaplabs.io/assets/front/img/garments/Sneakers/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/Sneakers/GreyNFT.mp4",
       qty: "1/550",
     },
-    {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+    {id: "whiteSneakers",
+      name: "Sivana White Sneakers",
+      image:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
   ],
 
   sivanaTShirts: [
     {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+      id: "blackTShirt",
+      name: "Sivana Black T-Shirt",
+      image:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
     {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+      id: "greyTShirt",
+      name: "Sivana Grey T-Shirt",
+      image: "https://dcaplabs.io/assets/front/img/garments/T-Shirt/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/T-Shirt/GreyNFT.mp4",
       qty: "1/550",
     },
     {
-      name: "Sivana Black Hoodie",
-      bg: "url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png)",
-      url: "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+      id: "whiteTShirt",
+      name: "Sivana White T-Shirt",
+      image:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+      video:
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
   ],

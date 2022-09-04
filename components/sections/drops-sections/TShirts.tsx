@@ -7,8 +7,9 @@ export const TShirts: FC = () => {
     <Fragment>
       {ProductData.sivanaTShirts.map((TShirt) => (
         <ProductCard
-          bg={TShirt.bg}
-          url={TShirt.url}
+          id={TShirt.id}
+          image={TShirt.image}
+          video={TShirt.video}
           name={TShirt.name}
           qty={TShirt.qty}
         />

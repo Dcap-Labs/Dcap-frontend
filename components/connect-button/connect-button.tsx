@@ -10,7 +10,7 @@ export const ConnectButton: FC<ConnectButtonProps> = (
 ) => {
   const {} = props;
 
-  const isMobile = useMediaQuery(800);
+  const isMobile = useMediaQuery(992);
 
   return (
     <Fragment>
@@ -42,11 +42,16 @@ export const ConnectButton: FC<ConnectButtonProps> = (
                       onClick={openConnectModal}
                       type="button"
                     >
-                      <Wallet
-                        style={{ verticalAlign: "middle", marginRight: "8px" }}
-                        set="curved"
-                        primaryColor="currentColor"
-                      />
+                      {!isMobile ? (
+                        <Wallet
+                          style={{
+                            verticalAlign: "middle",
+                            marginRight: "8px",
+                          }}
+                          set="curved"
+                          primaryColor="currentColor"
+                        />
+                      ) : null}
                       <span> Connect Wallet</span>
                     </button>
                   );
@@ -72,7 +77,7 @@ export const ConnectButton: FC<ConnectButtonProps> = (
                       style={{ display: "flex", alignItems: "center" }}
                       type="button"
                     >
-                      {!isMobile && chain.hasIcon && (
+                      {/* {!isMobile && chain.hasIcon && (
                         <div
                           style={{
                             background: chain.iconBackground,
@@ -80,6 +85,7 @@ export const ConnectButton: FC<ConnectButtonProps> = (
                             height: 24,
                             borderRadius: 999,
                             overflow: "hidden",
+                            filter: "hue-rotate(64deg)",
                             marginRight: 4,
                           }}
                         >
@@ -91,7 +97,7 @@ export const ConnectButton: FC<ConnectButtonProps> = (
                             />
                           )}
                         </div>
-                      )}
+                      )} */}
                       {chain.name}
                     </button>
 
@@ -100,11 +106,16 @@ export const ConnectButton: FC<ConnectButtonProps> = (
                       onClick={openAccountModal}
                       type="button"
                     >
-                      <Wallet
-                        style={{ verticalAlign: "middle", marginRight: "8px" }}
-                        set="curved"
-                        primaryColor="currentColor"
-                      />
+                      {/* {!isMobile ? (
+                        <Wallet
+                          style={{
+                            verticalAlign: "middle",
+                            marginRight: "8px",
+                          }}
+                          set="curved"
+                          primaryColor="currentColor"
+                        />
+                      ) : null} */}
                       {account.displayName}
                       {/* {account.displayBalance
                         ? ` (${account.displayBalance})`

@@ -1,17 +1,17 @@
 .button {
-	display: inline-block;
-	height: 54px;
-	color: #ff017e;
-	background-color: black;
-	padding: 0 30px;
-	font-size: 1.2rem;
-	font-weight: bold;
-	line-height: 54px;
-	-webkit-transition: all 500ms;
-	transition: all 500ms;
-	font-weight: 700;
-	text-transform: uppercase;
-	border-radius: 30px;
-	box-shadow: 0 0 10px #09fbd3, 0 -10px 20px -5px #ff017e;
-  }
-  
+  display: inline-block;
+  height: 54px;
+  color: #ff017e;
+  background-color: black;
+  padding: 0 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 54px;
+  -webkit-transition: all 500ms;
+  transition: all 500ms;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 30px;
+  box-shadow: 0 0 10px #09fbd3, 0 -10px 20px -5px #ff017e;
+  cursor: pointer;
+}

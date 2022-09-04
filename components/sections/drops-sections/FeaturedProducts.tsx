@@ -6,20 +6,23 @@ export const FeaturedProducts: FC = () => {
   return (
     <Fragment>
       <ProductCard
-        bg={ProductData.sivanaHoodie[1].bg}
-        url={ProductData.sivanaHoodie[1].url}
+        id={ProductData.sivanaHoodie[1].id}
+        image={ProductData.sivanaHoodie[1].image}
+        video={ProductData.sivanaHoodie[1].video}
         name={ProductData.sivanaHoodie[1].name}
         qty={ProductData.sivanaHoodie[1].qty}
       />
       <ProductCard
-        bg={ProductData.sivanaSneakers[1].bg}
-        url={ProductData.sivanaSneakers[1].url}
+        id={ProductData.sivanaSneakers[1].id}
+        image={ProductData.sivanaSneakers[1].image}
+        video={ProductData.sivanaSneakers[1].video}
         name={ProductData.sivanaSneakers[1].name}
         qty={ProductData.sivanaSneakers[1].qty}
       />
       <ProductCard
-        bg={ProductData.sivanaTShirts[1].bg}
-        url={ProductData.sivanaTShirts[1].url}
+        id={ProductData.sivanaTShirts[1].id}
+        image={ProductData.sivanaTShirts[1].image}
+        video={ProductData.sivanaTShirts[1].video}
         name={ProductData.sivanaTShirts[1].name}
         qty={ProductData.sivanaTShirts[1].qty}
       />

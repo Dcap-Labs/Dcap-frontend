@@ -2,7 +2,6 @@ import { FC, Fragment } from "react";
 import styles from "./DropsPage.module.scss";
 import { FeaturedProducts } from "./FeaturedProducts";
 import { Hoodies } from "./Hoodies";
-import { ProductData } from "./ProductData";
 import { Sneakers } from "./Sneakers";
 import { TShirts } from "./TShirts";
 
@@ -27,14 +26,23 @@ export const DropPage: FC = () => {
       <div className={styles.product}>
         <FeaturedProducts />
       </div>
+      <div className={styles.heading__products}>
+        <h1>Hoodies</h1>
+      </div>
       <div className={styles.product}>
         <Hoodies />
       </div>
 
+      <div className={styles.heading__products}>
+        <h1>Sneakers</h1>
+      </div>
       <div className={styles.product}>
         <Sneakers />
       </div>
 
+      <div className={styles.heading__products}>
+        <h1>T-Shirts</h1>
+      </div>
       <div className={styles.product}>
         <TShirts />
       </div>

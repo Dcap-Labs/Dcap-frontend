@@ -1,16 +1,16 @@
 import { FC, Fragment } from "react";
-import styles from './ProductCard.module.scss'
+import styles from "./ProductCard.module.scss";
 
 export const ProductCard: FC<ProductCardProps> = (props: ProductCardProps) => {
   return (
     <Fragment>
-      <div className={styles.product__col} key={Math.random()}>
+      <div className={styles.product__col} key={props.id}>
         <div className={styles.product__wrap}>
           <div className={styles.product__container}>
             <div
               className={styles.product__inner}
               style={{
-                backgroundImage: `${props.bg}`,
+                backgroundImage: `url(${props.image})`,
               }}
             >
               <video
@@ -22,7 +22,7 @@ export const ProductCard: FC<ProductCardProps> = (props: ProductCardProps) => {
                 autoPlay
                 muted
               >
-                <source src={props.url} type="video/mp4" />
+                <source src={props.video} type="video/mp4" />
               </video>
             </div>
             <div className={styles.product__title}>
@@ -39,8 +39,9 @@ export const ProductCard: FC<ProductCardProps> = (props: ProductCardProps) => {
 };
 
 interface ProductCardProps {
-	bg: string,
-	url: string,
-	name: string,
-	qty: string,
+  id: string;
+  image: string;
+  video: string;
+  name: string;
+  qty: string;
 }

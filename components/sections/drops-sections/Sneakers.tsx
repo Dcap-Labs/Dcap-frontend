@@ -5,12 +5,13 @@ import { ProductData } from "./ProductData";
 export const Sneakers: FC = () => {
   return (
     <Fragment>
-      {ProductData.sivanaSneakers.map((hoodie) => (
+      {ProductData.sivanaSneakers.map((sneaker) => (
         <ProductCard
-          bg={hoodie.bg}
-          url={hoodie.url}
-          name={hoodie.name}
-          qty={hoodie.qty}
+          id={sneaker.id}
+          image={sneaker.image}
+          video={sneaker.video}
+          name={sneaker.name}
+          qty={sneaker.qty}
         />
       ))}
     </Fragment>

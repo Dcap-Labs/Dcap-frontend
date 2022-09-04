@@ -7,8 +7,9 @@ export const Hoodies: FC = () => {
     <Fragment>
       {ProductData.sivanaHoodie.map((hoodie) => (
         <ProductCard
-          bg={hoodie.bg}
-          url={hoodie.url}
+          id={hoodie.id}
+          image={hoodie.image}
+          video={hoodie.video}
           name={hoodie.name}
           qty={hoodie.qty}
         />
