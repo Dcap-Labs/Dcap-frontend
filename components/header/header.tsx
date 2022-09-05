@@ -10,10 +10,9 @@ export const Header: FC<HeaderProps> = (props: HeaderProps) => {
       <div className={styles.header}>
         <img
           className={styles.header__logo}
-          src="https://dcaplabs.io/assets/front/img/core-img/emblem.svg"
-          alt="DCAPS Logo"
+          src="https://dcaplabs.io/assets/front/img/core-img/newlogo.svg"
+          alt="Dcap Logo"
         />
-
         <Link href="/">
           <h1 className={styles.header__text}>Dcap labs</h1>
         </Link>

@@ -4,9 +4,9 @@ export const ProductData = {
       id: "blackHoodie",
       name: "Sivana Hoodie X Joggers",
       image:
-        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Black.png",
       video:
-        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
+        "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/BlackNFT.mp4",
       qty: "1/550",
     },
     {
@@ -30,7 +30,8 @@ export const ProductData = {
   ],
 
   sivanaSneakers: [
-    {id: "blackSneakers",
+    {
+      id: "blackSneakers",
       name: "Sivana Black Sneakers",
       image:
         "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",
@@ -38,14 +39,16 @@ export const ProductData = {
         "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/GreyNFT.mp4",
       qty: "1/550",
     },
-    {id: "greySneakers",
+    {
+      id: "greySneakers",
       name: "Sivana Grey Sneakers",
       image: "https://dcaplabs.io/assets/front/img/garments/Sneakers/Grey.png",
       video:
         "https://dcaplabs.io/assets/front/img/garments/Sneakers/GreyNFT.mp4",
       qty: "1/550",
     },
-    {id: "whiteSneakers",
+    {
+      id: "whiteSneakers",
       name: "Sivana White Sneakers",
       image:
         "https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png",

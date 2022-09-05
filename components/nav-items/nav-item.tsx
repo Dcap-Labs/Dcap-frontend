@@ -17,9 +17,13 @@ export const NavItem: FC = () => {
       <Link href="/drops">
         <li className={styles.li}>Drops</li>
       </Link>
-      <Link href="#">
+      <a
+        href="https://discord.com/channels/983775153462841414/1006939383112409232"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
         <li className={styles.li}>Discord</li>
-      </Link>
+      </a>
     </ul>
   );
 };

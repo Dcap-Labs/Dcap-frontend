@@ -1,8 +1,7 @@
 import { FC, Fragment } from "react";
-import { useMediaQuery } from "@hooks";
+// import { useMediaQuery } from "@hooks";
 import { ConnectButton as RainbowButton } from "@rainbow-me/rainbowkit";
-import { Wallet } from "react-iconly";
-// import btn from "../../styles/button.module.scss";
+
 import styles from "./connect-button.module.scss";
 
 export const ConnectButton: FC<ConnectButtonProps> = (
@@ -10,7 +9,7 @@ export const ConnectButton: FC<ConnectButtonProps> = (
 ) => {
   const {} = props;
 
-  const isMobile = useMediaQuery(992);
+  // const isMobile = useMediaQuery(992);
 
   return (
     <Fragment>
@@ -42,7 +41,7 @@ export const ConnectButton: FC<ConnectButtonProps> = (
                       onClick={openConnectModal}
                       type="button"
                     >
-                      {!isMobile ? (
+                      {/* {!isMobile ? (
                         <Wallet
                           style={{
                             verticalAlign: "middle",
@@ -51,7 +50,7 @@ export const ConnectButton: FC<ConnectButtonProps> = (
                           set="curved"
                           primaryColor="currentColor"
                         />
-                      ) : null}
+                      ) : null} */}
                       <span> Connect Wallet</span>
                     </button>
                   );

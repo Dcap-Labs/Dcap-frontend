@@ -27,7 +27,6 @@
   &__container {
     position: relative;
     width: 32rem;
-    /* margin: 2rem auto 0 auto; */
     padding: 2.5rem;
     border-radius: 30px;
     background: linear-gradient(#0d121a, #0d121a);
@@ -36,16 +35,15 @@
   }
 
   &__inner {
-    // background-image: url(https://dcaplabs.io/assets/front/img/garments/JoggersXHoodies/Grey.png);
     background-size: cover;
     background-position: center;
     border-radius: 30px;
-    // max-width: 50rem;
+
     overflow: hidden;
   }
 
   &__video {
-    border-radius: 90px;
+    border-radius: 70px;
     width: -webkit-fill-available;
   }
 

@@ -4,7 +4,7 @@ import styles from "./ProductCard.module.scss";
 export const ProductCard: FC<ProductCardProps> = (props: ProductCardProps) => {
   return (
     <Fragment>
-      <div className={styles.product__col} key={props.id}>
+      <div className={styles.product__col}>
         <div className={styles.product__wrap}>
           <div className={styles.product__container}>
             <div
@@ -39,7 +39,7 @@ export const ProductCard: FC<ProductCardProps> = (props: ProductCardProps) => {
 };
 
 interface ProductCardProps {
-  id: string;
+  id: string | number;
   image: string;
   video: string;
   name: string;
